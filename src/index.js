@@ -2,16 +2,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './app.js';
-// import './index.css';
 
-
-
-function Main (){
+function Main(){
   return (
     <>
       <App />
     </>
-  );
+  )
 }
 
 
