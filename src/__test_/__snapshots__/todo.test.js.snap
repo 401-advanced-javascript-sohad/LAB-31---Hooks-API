@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToDo /> Assert DOM in snapshot 1`] = `
+<main>
+  <img
+    id="img1"
+    src="https://media1.tenor.com/images/1f729b628843b6e9739c5b708e5beb9f/tenor.gif?itemid=9979305"
+  />
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Type your task"
+      requigreen={true}
+      type="text"
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Difficulty (1-5)"
+      requigreen={true}
+      type="number"
+    />
+    <button
+      type="submit"
+    >
+      Add
+    </button>
+  </form>
+</main>
+`;
+
+exports[`<ToDo /> Assert DOM stability via snapshot 1`] = `
+<main>
+  <img
+    id="img1"
+    src="https://media1.tenor.com/images/1f729b628843b6e9739c5b708e5beb9f/tenor.gif?itemid=9979305"
+  />
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Type your task"
+      requigreen={true}
+      type="text"
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Difficulty (1-5)"
+      requigreen={true}
+      type="number"
+    />
+    <button
+      type="submit"
+    >
+      Add
+    </button>
+  </form>
+</main>
+`;
+
+exports[`<ToDo /> correct render 1`] = `
+<main>
+  <img
+    id="img1"
+    src="https://media1.tenor.com/images/1f729b628843b6e9739c5b708e5beb9f/tenor.gif?itemid=9979305"
+  />
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Type your task"
+      requigreen={true}
+      type="text"
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Difficulty (1-5)"
+      requigreen={true}
+      type="number"
+    />
+    <button
+      type="submit"
+    >
+      Add
+    </button>
+  </form>
+</main>
+`;
+
+exports[`<ToDo /> correcte render 1`] = `
+<main>
+  <img
+    id="img1"
+    src="https://media1.tenor.com/images/1f729b628843b6e9739c5b708e5beb9f/tenor.gif?itemid=9979305"
+  />
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Type your task"
+      requigreen={true}
+      type="text"
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Difficulty (1-5)"
+      requigreen={true}
+      type="number"
+    />
+    <button
+      type="submit"
+    >
+      Add
+    </button>
+  </form>
+</main>
+`;
+
+exports[`<ToDo /> correctly render 1`] = `
+<main>
+  <img
+    id="img1"
+    src="https://media1.tenor.com/images/1f729b628843b6e9739c5b708e5beb9f/tenor.gif?itemid=9979305"
+  />
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Type your task"
+      requigreen={true}
+      type="text"
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Difficulty (1-5)"
+      requigreen={true}
+      type="number"
+    />
+    <button
+      type="submit"
+    >
+      Add
+    </button>
+  </form>
+</main>
+`;
+
+exports[`<ToDo /> renders  1`] = `
+<main>
+  <img
+    id="img1"
+    src="https://media1.tenor.com/images/1f729b628843b6e9739c5b708e5beb9f/tenor.gif?itemid=9979305"
+  />
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Type your task"
+      requigreen={true}
+      type="text"
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Difficulty (1-5)"
+      requigreen={true}
+      type="number"
+    />
+    <button
+      type="submit"
+    >
+      Add
+    </button>
+  </form>
+</main>
+`;
+
+exports[`<ToDo /> renders correctly 1`] = `
+<main>
+  <img
+    id="img1"
+    src="https://media1.tenor.com/images/1f729b628843b6e9739c5b708e5beb9f/tenor.gif?itemid=9979305"
+  />
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Type your task"
+      requigreen={true}
+      type="text"
+    />
+    <input
+      onChange={[Function]}
+      placeholder="Difficulty (1-5)"
+      requigreen={true}
+      type="number"
+    />
+    <button
+      type="submit"
+    >
+      Add
+    </button>
+  </form>
+</main>
+`;
