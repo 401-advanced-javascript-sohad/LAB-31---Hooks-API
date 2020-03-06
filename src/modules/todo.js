@@ -11,7 +11,7 @@ function ToDo(){
 
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -36,10 +36,10 @@ function ToDo(){
   };
 
 
-/////////////////////////////////////////////addDifficulty///////////////////////////////////////////////////////
+  /////////////////////////////////////////////addDifficulty///////////////////////////////////////////////////////
 
 
-const addDifficulty = e =>{
+  const addDifficulty = e =>{
     if (e.target.value < 0 || e.target.value > 5) return;
     else setDifficulty(e.target.value);
   };
@@ -53,7 +53,7 @@ const addDifficulty = e =>{
   }, [toDoList]);
 
 
-///////////////////////////////////////////////////completeTask///////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////completeTask///////////////////////////////////////////////////////
 
   const completeTask = e =>{
     console.log(e.target.title);
@@ -68,7 +68,7 @@ const addDifficulty = e =>{
   };
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
 
 
@@ -85,33 +85,33 @@ const addDifficulty = e =>{
 
       
       {toDoList.map((toDo,idx)=>{
-          return (
-            <div>
-              <li style={{display:disable, color:coloring}} key={idx}>{toDo[0]}</li>
-              <li style={{display:disable, color:coloring}} key={idx}>{toDo[1]}</li>
-              <li style={{display:disable, color:coloring}} key={idx}>{toDo[2]}</li>
+        return (
+          <div>
+            <li style={{display:disable, color:coloring}} key={idx}>{toDo[0]}</li>
+            <li style={{display:disable, color:coloring}} key={idx}>{toDo[1]}</li>
+            <li style={{display:disable, color:coloring}} key={idx}>{toDo[2]}</li>
 
-              <button  style={{display:disable, color:coloring}} name={toDo[0]} value={toDo[1]} title={toDo[2]} onClick={completeTask}>completed</button>
-            </div>
-          );
-        })
+            <button  style={{display:disable, color:coloring}} name={toDo[0]} value={toDo[1]} title={toDo[2]} onClick={completeTask}>completed</button>
+          </div>
+        );
+      })
       }
       
 
 
       
       {doneList.map((toDo,idx)=>{
-          return (
-            <div>
-              <li style={{color:coloring1}} key={idx}>{toDo[0]}
-              </li>
-              <li style={{color:coloring1}} key={idx}>{toDo[1]}
-              </li>
-              <li style={{color:coloring1}} key={idx}>{toDo[2]}
-              </li>
-            </div>
-          );
-        })
+        return (
+          <div>
+            <li style={{color:coloring1}} key={idx}>{toDo[0]}
+            </li>
+            <li style={{color:coloring1}} key={idx}>{toDo[1]}
+            </li>
+            <li style={{color:coloring1}} key={idx}>{toDo[2]}
+            </li>
+          </div>
+        );
+      })
       }
    
 

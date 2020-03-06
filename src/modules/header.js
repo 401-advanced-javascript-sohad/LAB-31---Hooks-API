@@ -2,11 +2,11 @@
 import React from 'react' ;
 
 const Header = () => {
-    return (
-        <header>
+  return (
+    <header>
       <h1>Hooks API *-* toDo lab </h1>
     </header>
-  )
+  );
 };
 
 export default Header ;

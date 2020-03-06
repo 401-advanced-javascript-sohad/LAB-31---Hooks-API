@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <p>CopyRight@2020 - Sohad Qtaitat</p>
     </footer>
-  )
+  );
 };
 
 

@@ -15,14 +15,14 @@ describe('<ToDo />', ()=>{
     expect(app.find('input').exists()).toBeTruthy();
     expect(app.find('button').exists()).toBeTruthy();
     
-});
+  });
 
 
 
-    it('exist in our app' , () => {
+  it('exist in our app' , () => {
     let test = shallow(<ToDo/>);
     expect(test.find('button').exists()).toBeTruthy();
- });
+  });
 
 
   it('click simulate test',()=>{
@@ -40,10 +40,10 @@ describe('<ToDo />', ()=>{
   });
   
   
-    it('Assert DOM in snapshot', ()=> {
-      let test = renderer.create(<ToDo />);
-      expect(test).toMatchSnapshot();
-    });
+  it('Assert DOM in snapshot', ()=> {
+    let test = renderer.create(<ToDo />);
+    expect(test).toMatchSnapshot();
+  });
 });
 
 

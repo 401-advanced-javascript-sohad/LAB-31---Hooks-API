@@ -13,6 +13,6 @@ function App(){
       <ToDo />
       <Footer />
     </>
-  )
-};
+  );
+}
 export default App;
